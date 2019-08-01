@@ -1,3 +1,4 @@
 export default {
-  text: ""
+  text: "",
+  number: 0
 };
