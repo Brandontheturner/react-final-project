@@ -7,6 +7,14 @@ function text(state = "", action) {
   return state;
 }
 
+function num(state = 0, action) {
+  if (action.type === "SET_NUM") {
+    return action.value;
+  }
+  return state;
+}
+
 export default combineReducers({
-  text
+  text,
+  num
 });

@@ -6,3 +6,10 @@ export const setText = text => {
     value: text
   };
 };
+
+export const setNum = num => {
+  return {
+    type: "SET_NUM",
+    value: num
+  };
+};
